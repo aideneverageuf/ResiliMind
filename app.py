@@ -8,8 +8,8 @@ def get_db_connection():
     conn = psycopg2.connect(
         host="localhost",      # Use your PostgreSQL server address
         database="resiliminddb", # Your PostgreSQL database name
-        user="aiden",         # Your PostgreSQL user
-        password="aiden1845"   # Your PostgreSQL user's password
+        user="myuser",         # Your PostgreSQL user
+        password="mypassword"   # Your PostgreSQL user's password
     )
     return conn
 
